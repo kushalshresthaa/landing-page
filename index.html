@@ -5,49 +5,81 @@
     <title>title</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body style="font-family: Roboto;" >
+<body style="font-family: Roboto; margin: auto;"  >
 
-    <!-- Top Navigation -->
-        <button> Log In</button>
-        <button> Sign Up</button>
-
-    <!--Logo-->
-    <div class="logo-container"> 
-        <img src="./images/logo-7833524.svg" alt="piximage"
-        width="150px" height="150px">
-    </div>
     
     <!--Header Section -->  
     <header class="main-header">
-            <h1>Welcome to <strong> PixImage </strong> </h1>
-            <h3 style="font-style: italic;">Your World, In Stunning Pixels. </h3>
-           <p>PixImage is where visual storytelling meets cutting-edge technology.
-            Whether you're a photographer, designer, brand, or casual creator, we make it effortless to upload, edit, explore, and share breathtaking images—all in one powerful platform.</p>
+           <h1> <img src="./images/logo-transparent.png" alt="piximage" width="200px" height="200px">
+             Welcome to <strong> PixImage </strong> </h1>
     </header>
     
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+            <ul>
+                <li><a href="#" class="active"> Home </a> </li>
+                <li><a href="#">About Us</a> </li>
+                <li><a href="#">Support Us</a> </li>         
+            </ul>
+    </nav>
+        
+
+    <!-- Sub Heading section -->
+     <section class="sub-heading">
+        <div class="pic">
+            <div class="text">
+                  <h3>Your World, In Stunning Pixels. </h3>
+                    <p>PixImage is where visual storytelling meets cutting-edge technology.
+                    <br> Whether you're a photographer, designer, brand, or casual creator, we make it effortless to upload, edit, explore, and share breathtaking images—all in one powerful platform.</p>
+            </div>    
+                <img src= "https://unsplash.it/600/400" />
+        </div>
+     </section>
+
     <!--Features-->
     <section class="features">          
-         <h1 class="features">Features</h1>
-        <ul style="list-style-type: none;">
-         <li> Upload & Organize </li>
-         <li> Edit with Ease </li>
-         <li> Discover & Share</li>
-         <li> Private. Secure. Yours.</li>
-    </ul>
+         <h1>Features</h1>
+        <div class="feature-list">
+            <div class="feature-box">
+                <div class="image-placeholder"> </div>
+                <p>Upload & Organize</p>
+            </div>
+            <div class="feature-box">
+                <div class="image-placeholder"> </div>
+                <p>Edit with Ease</p>
+            </div>
+            <div class="feature-box">
+                <div class="image-placeholder"> </div>
+                <p>Discover & Share</p>
+            </div>
+            <div class="feature-box">
+                <div class="image-placeholder"> </div>
+                <p>Private. Secure. Yours</p>
+            </div>           
+        </div>
     </section>
     
-
     <!--Testimonials-->
     <section class="testimonials">
-           <p>“PixImage has completely changed how I manage my photo library. It's fast, intuitive, and the editing tools are top-notch.”
-        <br>— Alicia M., Freelance Photographer </p>
+           <p>“To me, photography is an art of observation. It's about finding something interesting in an ordinary place… I've found it has little to do with the things you see and everything to do with the way you see them.”
+                </p>
+            <p class="author">-Elliot Erwitt</p>
     </section>
        
     <!--Call to Action--> 
-    <div class="call2action">
-        <h2>Ready to Bring Your Images to Life?</h2>
-        <p>Join thousands of creators using PixImage to manage, edit, and share stunning visuals, all in one place.
-        <br>Start Free Today – no credit card needed. </p>
-    </div>
+    <section class="call">
+        <div class="pic"> 
+            <div class="text">
+                <h2>Ready to Bring Your Images to Life?</h2>
+                <p>Join thousands of creators using PixImage to manage, edit, and share stunning visuals, all in one place.
+                <br>Start Free Today – no credit card needed. </p>
+            </div>
+                <img src= "https://unsplash.it/g/600/400" />
+        </div>
+    </section>
+  
+        <footer>
+           <p>PixImage TM</p>
+        </footer>
     </body>
 </html>

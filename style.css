@@ -1,9 +1,165 @@
-.topright { 
-    display: flex;
-    justify-content: right;
-    gap: 10px
+
+.main-header{   
+    text-align: center;
+    background-color: #1f2937;
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    padding: 1px;
 }
 
-#img{  
-    
+.main-header img {
+    float: left;
+    width: auto;
+}
+ 
+.navbar {
+    background-color: #1f2937;
+    padding: 1px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.navbar ul {   
+    display: flex;
+    list-style: none;
+    justify-content: right;
+}
+
+.navbar a {    
+    color: #e5e7eb;
+    padding: 8px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+a:hover {
+    background-color: #111;
+}
+
+.active {   
+    background-color: #3882f6;
+}
+
+.sub-heading, .features, .call {
+    margin: 10% 20%
+}
+
+.sub-heading {
+    padding: 40px 20px;
+}
+
+.sub-heading .pic  {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.sub-heading .text {
+    padding-right: 20px;
+}
+
+.sub-heading h3 {
+    font-size: 36px;
+    margin-bottom: 20px; 
+}
+
+.sub-heading .pic img {
+    max-width: 500px; /* Limit the image width */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Removes extra space below image often caused by inline display */
+    border-radius: 8px; /* Optional: adds rounded corners to the image */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow to the image */
+}
+
+.features h1{  
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    margin-bottom: 50px;
+}
+
+.feature-list {
+    display: flex;
+    justify-content: center;
+    gap: 100px ;
+    flex-wrap: wrap;
+}
+
+.feature-box {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.image-placeholder {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #3b82f6;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.testimonials {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.testimonials p {
+    margin: 3% 20%;
+}
+.testimonials .author {
+    font-weight: bold;
+    font-style: normal;
+    font-size: 24px; 
+    align-self: flex-end;
+    margin-top: 1px;
+}
+
+.call .pic {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.call .text {
+    padding-left: 20px;
+}
+
+.call h2 {
+    font-size: 36px ;
+    text-align: center;
+    font-weight: 900;
+    margin-bottom: 50px;
+}
+
+.call .pic img {
+    max-width: 500px;
+    border-radius: 8px;
+    display: block;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    background-color: #1f2937;
+    font-size: 24px;
+    font-weight: 900;
+    color: #f9faf8;
+    padding: 1px;
 }
